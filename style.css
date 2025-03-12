@@ -1,0 +1,22 @@
+<!-- style.css -->
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+svg {
+    overflow: visible;
+}
+
+.shape {
+    transition: d 1s ease-in-out;
+}
